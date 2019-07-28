@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #eee;
+  background-color: #FFDE7B;
   font-family: 'Lato', sans-serif;
 }
 
@@ -35,15 +35,16 @@ a {
 }
 
 .btn {
-  padding: 0 20px;
-  height: 40px;
-  font-size: 1em;
-  font-weight: 900;
-  text-transform: uppercase;
-  border: 3px black solid;
-  border-radius: 2px;
-  background: transparent;
-  cursor: pointer;
+
+padding: 0 20px;
+height: 40px;
+font-size: 1em;
+font-weight: 900;
+text-transform: uppercase;
+border: 3px black solid;
+border-radius: 2px;
+background: transparent;
+cursor: pointer;
 }
 
 .grid {
@@ -52,13 +53,13 @@ a {
 
 header {
   position: fixed;
-  top: 0;
+  top: 1000px;
   min-height: 75px;
   padding: 0px 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #eee;
+  background-color: #FFDE7B;
 }
 
 @media (max-width: 600px) {
@@ -242,7 +243,7 @@ nav > ul {
 }
 
 .product > .level {
-  background-color: #ddd;
+  background-color: #84827E;
   color: black;
   padding: 15px 0;
   width: 100%;
@@ -288,7 +289,7 @@ nav > ul {
 
 footer {
   margin-top: 30px;
-  background-color: #ddd;
+  background-color: #84827E;
   padding: 20px;
 }
 
